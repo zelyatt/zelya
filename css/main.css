@@ -1,0 +1,127 @@
+body
+{
+  font-family: 'Nanum Myeongjo', serif;
+}
+/* START MENU BLOCK*/
+.block-menu
+{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.3em;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.block-menu ul > li
+{
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.block-menu a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.block-menu a:hover
+{
+  color: orange;
+  font-weight: bolder;
+}
+/* END MENU BLOCK*/
+
+
+/* START TITLE BLOCK*/
+.block-title
+{
+  text-align: center;
+  padding: 20% 10% 20% 10%;
+  background-image: url('../img/title.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block-title h1
+{
+  color: white;
+  font-size: 3em;
+}
+/* END TITLE BLOCK*/
+
+
+/* START PROMO BLOCK*/
+.block-promo
+{
+  padding: 3%;
+}
+
+.cart
+{
+  text-align: center;
+  padding: 1%;
+}
+
+.cart-img
+{
+  height: 400px;
+}
+
+.cart > .cart-text
+{
+  padding: 1% 2% 1% 2%;
+  text-align: center;
+  background-color: rgba(189, 195, 199, 0.3)
+}
+
+.cart-img img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.block-about
+{
+  text-align: left;
+  padding: 1%;
+}
+
+.img-about
+{
+  width: 400px;
+  height: 450px;
+}
+
+.img-about img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 55% 45%;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.contact
+{
+  text-align: center;
+  padding-top: 10%;
+}
+
+.footer
+{
+  padding: 2% 1% 2% 1%;
+  background-color: black;
+  color: white;
+}
